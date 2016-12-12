@@ -3,7 +3,7 @@
 ## First-app : This Month's Bestsellers App
 
 - [코드카데미](https://www.codecademy.com) Lesson 1. Your First App 공부 후 github에 정리하기
-- [결과물 바로가기](https://sharryhong.github.io/TIL/angularjs/01_first_app)
+- [결과물 바로가기](https://sharryhong.github.io/angularjs/01_first_app/)
 - 중요! 해석이 틀릴 수 있으니 조심 ^^ 제 영어는 7년전에 머물러있습니다.. ㅋㅋ 
 
 ### 1, 2_Hello AngularJS
