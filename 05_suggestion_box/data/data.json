@@ -1,0 +1,33 @@
+{
+	"posts": [
+		{
+			"title": "Full-Stack Developer", 
+			"upvotes": 11, 
+			"comments": [
+				{
+					"body": "good1-1",
+					"upvotes": 1
+				},
+				{
+					"body": "good2-1",
+					"upvotes": 3
+				}
+			]
+		},
+		{
+			"title": "AngularJS and Firebase", 
+			"upvotes": 8, 
+			"comments": [
+				{
+					"body": "good2",
+					"upvotes": 2
+				}
+			]
+		},
+		{
+			"title": "Front-End Developer", 
+			"upvotes": 12, 
+			"comments": []
+		}
+	]
+}

@@ -1,0 +1,20 @@
+<div>
+  <h2>{{ post.title }}</h2>
+  <ul ng-repeat="ct in post.comments | orderBy: '-upvotes'">
+    <li>{{ ct.body }}
+      <p>
+        <button type="button" ng-click="upVote(ct)">Upvote</button>
+        {{ ct.upvotes }}
+      </p>
+    </li>
+  </ul>
+</div>
+
+<form ng-submit="addComment()">
+  <h3>Submit your comment</h3>
+  <div>
+    <label for="commentadd">Comment</label>
+    <input type="text" id="commentadd" placeholder="Your comment here" ng-model="commentinput">
+  </div>
+  <button type="submit">Submit</button>
+</form>
